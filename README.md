@@ -1,5 +1,13 @@
 # OAuth2.0_facebook
 
+# 0. Create VM for web server
+```
+# git clone https://github.com/developer-onizuka/OAuth2.0_facebook
+# cd OAuth2.0_facebook
+# vagrant up --provider=libvirt
+# vagrant ssh
+```
+
 # 1. Install yarn
 ```
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
