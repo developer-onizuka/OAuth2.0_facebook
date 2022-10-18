@@ -6,7 +6,7 @@ Vagrant.configure("2") do |config|
   config.vm.box = "generic/ubuntu2004"
   config.vm.define "ubuntu_192.168.33.111"
   config.vm.network "private_network", ip: "192.168.33.111"
-  config.vm.hostname = "ubuntu20.04"
+  config.vm.hostname = "ubuntu2004"
 
   config.vm.provider "libvirt" do |kvm|
     kvm.memory = 4096 
