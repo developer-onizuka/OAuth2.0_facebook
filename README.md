@@ -41,7 +41,7 @@ If you need to update node, then see the URL below: <br>
 # 3. Install mkcert for HTTPS
 You should create your webApp with HTTPS because OAuth2.0 enforces HTTPS. <br>
 ```
-apt-get install wget libnss3-tools
+apt-get install -y wget libnss3-tools
 sudo apt-get install wget libnss3-tools
 wget https://github.com/FiloSottile/mkcert/releases/download/v1.4.3/mkcert-v1.4.3-linux-amd64
 mv mkcert-v1.4.3-linux-amd64 /usr/bin/mkcert
