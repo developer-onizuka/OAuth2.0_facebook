@@ -77,8 +77,11 @@ localhost-key.pem  localhost.pem  node_modules  package.json  pages  public  yar
   }
 }
 ```
+# 6. Create webApp in [Meta for Developer](https://developers.facebook.com/)
+<img src="https://github.com/developer-onizuka/OAuth2.0_facebook/facebook-login0" width="480"><br>
+<img src="https://github.com/developer-onizuka/OAuth2.0_facebook/facebook-login4" width="480"><br>
 
-# 6. Create index.html
+# 7. Create index.html
 Please refer the url below: <br>
 > https://developers.facebook.com/docs/facebook-login/web
 ```
@@ -87,7 +90,7 @@ Please refer the url below: <br>
 # vi public/index.html
 ```
 
-# 7. Run yarn
+# 8. Run yarn
 ```
 # mkdir pages
 # yarn dev:proxy
@@ -105,4 +108,6 @@ event - compiled client and server successfully in 104 ms (160 modules)
 # ssh -X vagrant@192.168.33.111
 # google-chrome-stable https://localhost:3001/index.html
 ```
-
+<img src="https://github.com/developer-onizuka/OAuth2.0_facebook/facebook-login1" width="480"><br>
+<img src="https://github.com/developer-onizuka/OAuth2.0_facebook/facebook-login2" width="480"><br>
+<img src="https://github.com/developer-onizuka/OAuth2.0_facebook/facebook-login3" width="480"><br>
