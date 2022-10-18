@@ -113,5 +113,8 @@ event - compiled client and server successfully in 104 ms (160 modules)
 # (2) You can check if your request is granted.
 <img src="https://github.com/developer-onizuka/OAuth2.0_facebook/blob/master/facebook-login2.png" width="640"><br>
 
-# (3) If you grant it, you'll see your name as it's registered to your Facebook account. This is the **OpenID Connect**.
+# (3) If you grant it, you'll see your name as it's registered to your Facebook account. This is what the OpenID Connect is.
 <img src="https://github.com/developer-onizuka/OAuth2.0_facebook/blob/master/facebook-login3.png" width="640"><br>
+
+# 9. Etc
+You may use JSON.stringify(response), if it should print the entire object of response.
