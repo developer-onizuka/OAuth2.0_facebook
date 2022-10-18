@@ -2,7 +2,7 @@
 
 Facebook Login with the Facebook SDK for JavaScript enables people to sign into your web page with their Facebook credentials.<br>
 
-[OpenID_Connect_Flow.drawio.png](https://github.com/developer-onizuka/OAuth2.0_facebook/blob/master/OpenID_Connect_Flow.drawio.png)
+![OpenID_Connect_Flow.drawio.png](https://github.com/developer-onizuka/OAuth2.0_facebook/blob/master/OpenID_Connect_Flow.drawio.png)
 
 # 0. Create VM for web server
 ```
