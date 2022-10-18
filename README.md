@@ -1,4 +1,4 @@
-#OAuth2.0_facebook
+# Facebook Login with OpenID connect
 
 # 0. Create VM for web server
 ```
@@ -108,6 +108,11 @@ event - compiled client and server successfully in 104 ms (160 modules)
 # ssh -X vagrant@192.168.33.111
 # google-chrome-stable https://localhost:3001/index.html
 ```
+# (1) Press Login button in the upper left corner, then you will be asked about your authorization request.
 <img src="https://github.com/developer-onizuka/OAuth2.0_facebook/blob/master/facebook-login1.png" width="640"><br>
+
+# (2) You can check if your request is granted.
 <img src="https://github.com/developer-onizuka/OAuth2.0_facebook/blob/master/facebook-login2.png" width="640"><br>
+
+# (3) If you grant it, you'll see your name as it's registered to your Facebook account. This is the **OpenID Connect**.
 <img src="https://github.com/developer-onizuka/OAuth2.0_facebook/blob/master/facebook-login3.png" width="640"><br>
