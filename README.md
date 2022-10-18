@@ -55,7 +55,7 @@ mkcert --version
 # mkcert -install
 # mkcert localhost
 # ls
-install-key.pem  install.pem  localhost-key.pem  localhost.pem  node_modules  package.json  pages  public  yarn.lock
+localhost-key.pem  localhost.pem  node_modules  package.json  pages  public  yarn.lock
 ```
 
 # 5. Edit package.json
@@ -89,6 +89,7 @@ Please refer the url below: <br>
 
 # 7. Run yarn
 ```
+# mkdir pages
 # yarn dev:proxy
 yarn run v1.22.19
 $ next dev & local-ssl-proxy --key localhost-key.pem --cert localhost.pem --source 3001 --target 3000
@@ -97,5 +98,11 @@ ready - started server on 0.0.0.0:3000, url: http://localhost:3000
 event - compiled client and server successfully in 457 ms (159 modules)
 wait  - compiling /_error (client and server)...
 event - compiled client and server successfully in 104 ms (160 modules)
+```
+
+# 8. Go login with facebook account
+```
+# ssh -X vagrant@192.168.33.111
+# google-chrome-stable https://localhost:3001/index.html
 ```
 
