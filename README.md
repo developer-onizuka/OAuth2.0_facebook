@@ -1,4 +1,4 @@
-# OAuth2.0_facebook
+#OAuth2.0_facebook
 
 # 0. Create VM for web server
 ```
@@ -19,6 +19,13 @@ yarn --version
 
 If you need to update node, then see the URL below: <br>
 > https://parashuto.com/rriver/tools/updating-node-js-and-npm
+```
+# sudo apt install -y npm
+# sudo npm install -g n
+# n --stable
+# sudo n stable
+# sudo node -v
+```
 
 # 2. Init yarn
 ```
