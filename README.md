@@ -1,7 +1,7 @@
 # Facebook Login with OpenID connect
 
 Facebook Login with the Facebook SDK for JavaScript enables people to sign into your web page with their Facebook credentials.<br>
-**OpenID connect could be used for "Let a third party app log in my Facebook account", while OAuth2.0 should be used for "Let a third party app download pictures in my Facebook account".**<br> This means OAuth2.0 is for authorization NOT for authentication.
+**OpenID connect could be used for "Let a third party app log in my Facebook account", while OAuth2.0 should be used for "Let a third party app download pictures in my Facebook account".** This means OAuth2.0 is for authorization NOT for authentication.<br> 
 
 | | Authentication | Autoraization | Target |
 | --- | --- | --- | --- |
