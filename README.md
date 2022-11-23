@@ -5,9 +5,9 @@ Facebook Login with the Facebook SDK for JavaScript enables people to sign into 
 
 | | Authentication | Autoraization | Target |
 | --- | --- | --- | --- |
-| OAuth2.0 | N/A | Defined | Consumer | 
-| OpenID connect | Defined | Defined | Consumer |
-| SAML | Defined | Defined | Enterprise |
+| OAuth2.0 | N/A | Defined | Delegation process | 
+| OpenID connect | Defined | Defined | SSO in Consumer usage|
+| SAML | Defined | Defined | SSO in Enterprise usage |
 
 ![OpenID_Connect_Flow.drawio.png](https://github.com/developer-onizuka/OAuth2.0_facebook/blob/master/OpenID_Connect_Flow.drawio.png)
 
